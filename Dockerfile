@@ -10,7 +10,7 @@
 FROM ubuntu:16.04
 
 ENV DISPLAY=:10
-ENV CHROMEDRIVER_VERSION=2.39
+ENV CHROMEDRIVER_VERSION=2.41
 
 RUN apt-get update -y && apt-get install -y \
     maven \

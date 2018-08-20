@@ -50,4 +50,4 @@ RUN chmod +x chromedriver /opt/google/chrome/google-chrome \
 
 WORKDIR codigo_teste_com_selenium_webdriver
 
-CMD ["/bin/bash","-c","Xvfb :10 -ac -screen 0 1366x768x24 & mvn clean test"]
+CMD ["/bin/bash","-c","Xvfb :10 -ac -screen 0 1366x768x24 & mvn clean test $MVN_OPTS"]
